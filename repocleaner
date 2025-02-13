@@ -5,7 +5,7 @@ from github import Github
 
 token = os.getenv("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")  
 
-TW_YEARS = 1  # Time window (1 year)
+TW_YEARS = 1  
 TW_DAYS = TW_YEARS * 365
 
 def get_stale_branches(repo):
